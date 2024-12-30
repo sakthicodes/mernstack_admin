@@ -19,10 +19,5 @@
       "src": "/api/users/(.*)",
       "dest": "routes/userRoutes.js"
     }
-  ],
-  "env": {
-    "MONGO_URI": "@mongo_uri",
-    "JWT_SECRET": "@jwt_secret",
-    "OTHER_ENV_VARIABLE": "@other_env_variable"
-  }
+  ]
 }
